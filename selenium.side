@@ -1,0 +1,192 @@
+{
+  "id": "955fb8d9-6953-4868-aba4-df9ebdb37cfb",
+  "version": "2.0",
+  "name": "dordimaliadgalor",
+  "url": "http://localhost:6060",
+  "tests": [{
+    "id": "eff93edf-5ce6-4104-b983-53284349bd7f",
+    "name": "galordimadorliad",
+    "commands": [{
+      "id": "3ab79e3b-8cd4-48e4-b8bb-9de0073c6834",
+      "comment": "",
+      "command": "open",
+      "target": "/dorordimaliadgalapp/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "70123de4-fd9c-42b6-83d2-f51f7d80b2c3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "562x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e3601607-b9b0-46d9-9767-fc461ec313e4",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7dfb7aec-f29b-4adb-9505-5ad1f783dca1",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "gal"
+    }, {
+      "id": "7e1a745e-920d-4871-8f01-70a6c5ed4a34",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "09830fac-7e20-4ea9-ac5c-74ea4a623108",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "123"
+    }, {
+      "id": "520ae7e8-7384-454d-901a-0cddfcb8c1ce",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(7)",
+      "targets": [
+        ["css=input:nth-child(7)", "css:finder"],
+        ["xpath=//input[@value='Login']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f94a60a6-197c-4d85-a0f5-427989e6cef7",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=error",
+      "targets": [
+        ["id=error", "id"],
+        ["css=#error", "css:finder"],
+        ["xpath=//div[@id='error']", "xpath:attributes"],
+        ["xpath=//div[4]", "xpath:position"],
+        ["xpath=//div[contains(.,'Invalid username or password')]", "xpath:innerText"]
+      ],
+      "value": "Invalid username or password"
+    }, {
+      "id": "8d7187ea-2301-457c-9ad5-b3700d07ee64",
+      "comment": "",
+      "command": "open",
+      "target": "/dorordimaliadgalapp/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "03b9b138-e701-4627-8887-02adf2fe1f53",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c70006c9-f789-40ee-90fb-5dadeb2f1293",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Gal"
+    }, {
+      "id": "0b5f6fbc-e681-4778-8abb-b735d13dd406",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "076a13d3-47ed-4507-b205-b81918f034e6",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "123"
+    }, {
+      "id": "d2a9fc55-4d10-45bd-8275-20e9521ca0a2",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(7)",
+      "targets": [
+        ["css=input:nth-child(7)", "css:finder"],
+        ["xpath=//input[@value='Login']", "xpath:attributes"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "72ceb0af-8d65-4d23-8b9c-39c2c9a5fff5",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Welcome!')]", "xpath:innerText"]
+      ],
+      "value": "Welcome!"
+    }]
+  }],
+  "suites": [{
+    "id": "9f3f58ea-0a36-42b6-bd06-befdc3915b56",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["eff93edf-5ce6-4104-b983-53284349bd7f"]
+  }],
+  "urls": ["http://localhost:6060/"],
+  "plugins": []
+}
